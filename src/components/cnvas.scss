@@ -1,0 +1,32 @@
+/* Example CSS for the app */
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f4f4;
+  background: linear-gradient(
+    rgba(238, 237, 237, 0.383),
+    rgb(45, 55, 62)
+  ),url("/images/two.jpeg");
+  // background-repeat: no-repeat;
+
+
+
+
+  canvas {
+    border: 1px solid #9d9d9d;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    border-radius: 5px;
+    // box-shadow: 3px 2px 15px 2px #666;
+    box-shadow: 0 0 25px rgb(255, 255, 255), 5px 5px 10px rgba(255, 255, 255, 0);
+
+  }
+}

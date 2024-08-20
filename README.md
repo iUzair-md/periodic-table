@@ -1,4 +1,4 @@
-A Periodc table game built using React.
+# A Periodc table game built using React.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
